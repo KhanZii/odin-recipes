@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: aqua;
+}
+
+img {
+    height: auto;
+    width: 600px;
+}
+
+h1 {
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+
+h3 {
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+
+h4 {
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+
+href {
+    color: red;
+}
+
+
