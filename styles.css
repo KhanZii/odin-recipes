@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: black;
     color: aqua;
@@ -15,6 +22,13 @@ h1 {
     text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    display: inline-flex;
+    border-top: 10px double aqua;
+    border-bottom: 10px double aqua;
+    border-left: 10px solid aqua;
+    border-right: 10px solid aqua;
+    padding: 5px;
+    margin: 10px;
 }
 
 h2 {
@@ -32,8 +46,14 @@ h4 {
     font-size: 30px;
 }
 
-href {
+a  {
     color: red;
+    font-size: 30px;
+    border-top: 2px double aqua;
+    border-bottom: 2px double aqua;
+    border-left: 5px solid aqua;
+    border-right: 5px solid aqua;
+    padding: 0.5;
+    margin: 0.5;
+
 }
-
-
